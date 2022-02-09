@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!-- icone bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <!-- google font urbanist -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+        <title>Site ecommerce</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Eighth navbar example">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/boutique.gif" alt="logo-gif" class="logo-gif"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarsExample07">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-fill"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="inscription.html">Créer votre compte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="connexion.html">Identifiez-vous</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="boutique.html">Boutique</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="panier.html">Panier <span class="badge bg-success">3</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Catégories</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                                <li><a class="dropdown-item" href="#">Pull</a></li>
+                                <li><a class="dropdown-item" href="#">Tee-shirt</a></li>
+                                <li><a class="dropdown-item" href="#">Manteau</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form>
+                        <input class="form-control" type="text" placeholder="Rechercher" aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/slider3.jpg" class="d-block w-100" alt="slider 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider4.jpg" class="d-block w-100" alt="slider 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider1.jpg" class="d-block w-100" alt="slider 1">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+
+        <main class="container zone-main">
+
+            <h1 class="text-center my-5">Votre panier</h1>
+
+            <div class="container col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mx-auto d-flex justify-content-center shadow-sm px-0">
+                <div class="col-md-2 bg-white p-2">
+                    <a href="fiche_produit.html"><img src="assets/img/tee-shirt1.jpg" alt="produit 1" class="img-panier"></a>
+                </div>
+                <div class="col-md-6 bg-white d-flex flex-column justify-content-center p-2">
+                    <h4><a href="fiche_produit.html" class="alert-link text-dark titre-produit-panier">Tee-shirt h/f</a></h4>
+                    <p class="text-success fw-bold fst-italic">En stock !</p>
+                    <p>Quantité : 1</p>
+                    <p class="mb-0"><a href="" class="alert-link text-dark liens-supp-produit-panier">Supprimer</a></p>
+                </div>
+                <div class="col-md-4 bg-white d-flex justify-content-end align-items-center p-2">
+                    <p class="fw-bold mb-0">47.90€</p>
+                </div>
+            </div>
+            <div class="container col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mx-auto d-flex justify-content-center shadow-sm px-0 mt-2">
+                <div class="col-md-2 bg-white p-2">
+                    <a href="fiche_produit.html"><img src="assets/img/tee-shirt2.jpg" alt="produit 1" class="img-panier"></a>
+                </div>
+                <div class="col-md-6 bg-white d-flex flex-column justify-content-center p-2">
+                    <h4><a href="fiche_produit.html" class="alert-link text-dark titre-produit-panier">Tee-shirt noir</a></h4>
+                    <p class="text-success fw-bold fst-italic">En stock !</p>
+                    <p>Quantité : 3</p>
+                    <p class="mb-0"><a href="" class="alert-link text-dark liens-supp-produit-panier">Supprimer</a></p>
+                </div>
+                <div class="col-md-4 bg-white d-flex justify-content-end align-items-center p-2">
+                    <p class="fw-bold mb-0">19.99€</p>
+                </div>
+            </div>
+            <div class="container col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 mx-auto d-flex justify-content-center shadow-sm px-0 mt-2">
+                <div class="col-md-2 bg-white p-2">
+                    <a href="fiche_produit.html"><img src="assets/img/tee-shirt3.jpg" alt="produit 1" class="img-panier"></a>
+                </div>
+                <div class="col-md-6 bg-white d-flex flex-column justify-content-center p-2">
+                    <h4><a href="fiche_produit.html" class="alert-link text-dark titre-produit-panier">Tee-shirt violet</a></h4>
+                    <p class="text-danger fw-bold fst-italic">Plus que 9 exemplaire(s) disponible !</p>
+                    <p>Quantité : 2</p>
+                    <p class="mb-0"><a href="" class="alert-link text-dark liens-supp-produit-panier">Supprimer</a></p>
+                </div>
+                <div class="col-md-4 bg-white d-flex justify-content-end align-items-center p-2">
+                    <p class="fw-bold mb-0">15.90€</p>
+                </div>
+            </div>
+            <div class="container col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 d-flex justify-content-end align-items-center shadow-sm px-0 py-3 bg-white mt-2 mb-3">
+                <h5 class="m-0 px-2 fw-bold">Sous total (3 articles) : 170.99€</h5>
+            </div>
+            <div class="container col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 p-0 text-end mb-5">
+                <a href="" class="btn btn-dark">FINALISER LA COMMANDE</a>
+            </div>
+
+        </main>
+
+        <footer class="bg-dark text-white">
+            <div class="d-flex align-items-center zone-footer">
+                <div class="col-sm-6 col-md-6 zone-administratif">
+                    <h4 class="text-center">Administratifs</h4>
+                    <ul class="d-flex justify-content-center menu-footer mb-0">
+                        <li><a href="">CGV</a></li>
+                        <li><a href="">Mentions légales</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <h4 class="text-center">Mes réseaux</h4>
+                    <p class="d-flex justify-content-center mb-0">
+                        <a href=""><i class="bi bi-facebook icone-b"></i></a>
+                        <a href=""><i class="bi bi-instagram icone-b"></i></a>
+                        <a href=""><i class="bi bi-twitter icone-b"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-end div-footer-copyright">
+                <p class="text-center zone-copyright py-3 mb-0">&copy; 2021 | Grégory LACROIX</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>

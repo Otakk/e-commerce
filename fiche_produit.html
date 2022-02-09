@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/lightbox.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!-- icone bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <!-- google font urbanist -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+        <title>Site ecommerce</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0" aria-label="Eighth navbar example">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/boutique.gif" alt="logo-gif" class="logo-gif"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarsExample07">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-fill"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="inscription.html">Créer votre compte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="connexion.html">Identifiez-vous</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="boutique.html">Boutique</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="panier.html">Panier <span class="badge bg-success">3</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Catégories</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                                <li><a class="dropdown-item" href="#">Pull</a></li>
+                                <li><a class="dropdown-item" href="#">Tee-shirt</a></li>
+                                <li><a class="dropdown-item" href="#">Manteau</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form>
+                        <input class="form-control" type="text" placeholder="Rechercher" aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/slider3.jpg" class="d-block w-100" alt="slider 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider4.jpg" class="d-block w-100" alt="slider 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/slider1.jpg" class="d-block w-100" alt="slider 1">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+
+        <main class="container zone-main">
+
+            <h1 class="text-center my-5">Détails de l'article</h1>
+
+            <div class="row mb-5">
+                <div class="bg-white shadow-sm rounded d-flex zone-card-fiche-produit">
+
+                    <a href="assets/img/tee-shirt1.jpg" data-lightbox="tee-shirt1" data-title="tee-shirt1" data-alt="tee-shirt1" class=""><img src="assets/img/tee-shirt1.jpg" class="img-produit-fiche" alt="..."></a>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-9 card-body d-flex flex-column justify-content-center zone-card-body">
+                        <h5 class="card-title text-center fw-bold my-3">Tee-shirt noir</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis incidunt magnam similique odio facilis aut debitis temporibus assumenda quam, mollitia, reiciendis accusamus reprehenderit ratione neque non deserunt asperiores doloribus fugit voluptatum nostrum nesciunt quidem repudiandae at harum. Saepe optio minus voluptatibus, accusantium inventore repudiandae eaque obcaecati cupiditate, non a dolorum accusamus iste pariatur consectetur, cumque totam. Eaque quod ut eveniet harum, numquam animi nisi reiciendis neque aliquid ratione. Facere ratione, culpa debitis doloremque sequi et deserunt reprehenderit quisquam itaque voluptates provident, officia aliquid aliquam accusantium corporis dolorem sint nam doloribus tenetur similique? Adipisci dicta similique a molestiae.</p>
+                        <p class="card-text fw-bold">Taille : S, M, L, XL</p>
+                        <p class="card-text fw-bold">Couleur : noir</p>
+                        <p class="card-text fw-bold">9.99€</p>
+                        <p class="card-text">
+                            <form action="panier.html" class="row g-3">
+                                <div class="col-12 col-sm-7 col-md-4 col-lg-3 col-xl-3">
+                                    <label class="visually-hidden" for="autoSizingSelect">Quantité</label>
+                                    <select class="form-select" id="autoSizingSelect">
+                                        <option selected>Choisir une quantité...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm">
+                                    <input type="submit" class="btn btn-dark" value="Ajouter au panier">
+                                </div>
+                            </form>
+                        </p>
+                    </div>
+                </div>
+                <p class="mt-1"><a href="" class="text-dark alert-link"><i class="bi bi-arrow-left-circle-fill"></i> Retour à la boutique</a></p>
+            </div>
+
+        </main>
+
+        <footer class="bg-dark text-white">
+            <div class="d-flex align-items-center zone-footer">
+                <div class="col-sm-6 col-md-6 zone-administratif">
+                    <h4 class="text-center">Administratifs</h4>
+                    <ul class="d-flex justify-content-center menu-footer mb-0">
+                        <li><a href="">CGV</a></li>
+                        <li><a href="">Mentions légales</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <h4 class="text-center">Mes réseaux</h4>
+                    <p class="d-flex justify-content-center mb-0">
+                        <a href=""><i class="bi bi-facebook icone-b"></i></a>
+                        <a href=""><i class="bi bi-instagram icone-b"></i></a>
+                        <a href=""><i class="bi bi-twitter icone-b"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex align-items-end div-footer-copyright">
+                <p class="text-center zone-copyright py-3 mb-0">&copy; 2021 | Grégory LACROIX</p>
+            </div>
+        </footer>
+
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+        <script src="js/lightbox.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    </body>
+</html>
